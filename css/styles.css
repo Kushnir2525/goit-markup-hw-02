@@ -10,7 +10,7 @@ text-decoration: none;
 
 body {
     font-family: 'Roboto', sans-serif;
-    font-weight: 400;
+    background-color: #FFFFFF ;
 }
 
  :root {
@@ -30,9 +30,7 @@ body {
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
-    line-height: 24px;
-    display: flex;
-    align-items: center;
+    line-height: 1.33;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4D5AE5;
@@ -44,8 +42,6 @@ body {
 font-weight: 800;
 font-size: 18px;
 line-height: 1.33;
-display: flex;
-align-items: center;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color:var(--main-title-color);
@@ -56,14 +52,13 @@ color:var(--main-title-color);
 .title{    
 font-weight: 700;
 font-size: 36px;
-line-height: 1.11
-text-align: center;
+line-height: 1.11;
 letter-spacing: 0.02em;
 text-transform: capitalize;
 color: var(--main-title-color)
 }
 
-.pre-post-title {
+.second-title {
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
@@ -94,24 +89,7 @@ color:var(--main-text-color);
 .logo-color{
     color:var(--secondary-title-color);
 }
-.page-header {
-    
-}
-.page-nav {
-}
-.link {
-}
-.logo{
-    
-}
-.studio {
-}
-.menu {
-}
-.list {
-}
-.header-item {
-}
+
 .menu-link {
 
 font-weight: 500;
@@ -119,7 +97,7 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--main-title-color);
-flex: none;
+
 
 }
 
@@ -180,7 +158,7 @@ letter-spacing: 0.02em;
 
 font-weight: 700;
 font-size: 56px;
-line-height: 1,07;
+line-height: 1.07;
 text-align: center;
 letter-spacing: 0.02em;
 
@@ -188,15 +166,17 @@ color: var(--secondary-title-color);
 
 }
 .hero-button {
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    display: flex;
-    align-items: center;
     letter-spacing: 0.04em;
-    
     color: #FFFFFF;
     background-color:#4D5AE5;
+    border: none;
+    padding:16px 32px ;
+    border-radius: 4px;
+    cursor: pointer;
 
 }
 
@@ -220,22 +200,13 @@ color: var(--secondary-title-color);
 
 
 /*=============Benefits=============*/
-.benefits {
-}
-.benefits-title {
-    font-size: 0
-}
-.benefits-list {
-}
+
 .benefits-post-title {
-  
-
-
+    font-size:  20px;
+    line-height: 1.2;
+    font-weight: 500;  
 }
-.benefits-text {
 
-
-}
 
 
 
@@ -249,20 +220,7 @@ color: var(--secondary-title-color);
 
 
 /*=============What are we doing=============*/
-.products {
-}
-.products-title {
 
-
-}
-.list {
-}
-.products-list {
-}
-.products-item {
-}
-.products-img {
-}
 
 /*=============/What are we doing=============*/
 
@@ -272,20 +230,7 @@ color: var(--secondary-title-color);
 
 
 .team {
-}
-.team-title {
-}
-.list {
-}
-.team-list {
-}
-.team-item {
-}
-.our-team-img {
-}
-.team-post-title {
-}
-.team-text {
+    background-color: #F4F4FD;
 }
 
 
@@ -300,15 +245,11 @@ color: var(--secondary-title-color);
 .footer {
     background-color: #2E2F42;;
 }
-.link {
-}
-.logo {
-}
-.studio {
-   
-}
+
 .footer-text {
     color:var( --secondary-text-color);
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 
@@ -319,39 +260,27 @@ color: var(--secondary-title-color);
 
 /*=============Portfolio=============*/
 
-.menu-button {
-}
 
-.menu-button-list {
-   
-}
 .menu-btn {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    display: flex;
-    align-items: center;
-    text-align: center;
     letter-spacing: 0.04em;
     color: #4D5AE5;
-    background-color:#E7E9FC
+    background-color:#E7E9FC ;
+    border: none;
+    padding: 12px 24px; ;
+    border-radius: 4px;
+    cursor: pointer;
 }
-.menu-button-item :hover ,
+
+.button-item :hover ,
 .menu-btn :focus {
     color: #FFFFFF;
     background-color: #404BBF;
 }
 
 
-.servise-title {
-    font-size: 0
-}
-.servise-list {
-}
-.service-item {
-}
-.service-post-title {
-}
 
 
 
